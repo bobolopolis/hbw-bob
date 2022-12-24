@@ -1,0 +1,18 @@
+#YAML 1.2
+---
+version: 0
+preset: "H.264 MKV 1080p30"
+audio: "1"
+aname: "English"
+subtitle: "1"
+subname: "English"
+
+workdir: "/mnt/raid/media/tv/Hogfather"
+
+inputs:
+  - input: "rip/disc"
+    titles:
+      - title: 3
+        output: "Season 1/s1e1 - Part 1.mkv"
+      - title: 4
+        output: "Season 1/s1e2 - Part 2.mkv"
