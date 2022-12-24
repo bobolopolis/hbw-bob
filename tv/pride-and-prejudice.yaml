@@ -1,0 +1,60 @@
+#YAML 1.2
+---
+version: 0
+preset: "H.264 MKV 1080p30"
+audio: "1"
+aname: "English"
+subtitle: "1"
+subname: "English"
+
+workdir: "/mnt/raid/media/tv/Pride and Prejudice"
+
+inputs:
+  - input: "rip/Pride And Prejudice D1"
+    titles:
+      - title: 1
+        output: "Season 1/s1e1 - Part 1.mkv"
+      - title: 2
+        output: "Season 1/s1e2 - Part 2.mkv"
+      - title: 3
+        output: "Season 1/s1e3 - Part 3.mkv"
+      - title: 4
+        output: "Season 1/s1e4 - Part 4.mkv"
+      # title 5: titles 1-4 combined
+      # title 7: austinland trailer
+      # title 8: dirty dancing trailer
+      # title 9: shakespeare in love trailer
+      # title 10: the english patient trailer
+      # title 11: lionsgate logo
+      # title 12: ring of fire trailer
+  - input: "rip/Pride And Prejudice D2"
+    titles:
+      - title: 1
+        output: "Season 1/s1e5 - Part 5.mkv"
+      - title: 2
+        output: "Season 1/s1e6 - Part 6.mkv"
+      # title 3: titles 1 and 2 combined
+      # title 4: titles 1 and 2 combined
+      - title: 5
+        output: "Extras/Lasting Impressions.mkv"
+      - title: 6
+        output: "Extras/An Impromptu Walkabout with Adrian Lukis and Lucy Briers.mkv"
+      - title: 7
+        output: "Extras/Pride and Prejudice - A Turning Point for Period Drama.mkv"
+      - title: 8
+        output: "Extras/Technical Restoration.mkv"
+      - title: 9
+        output: "Extras/The Definitive Pride and Prejudice.mkv"
+      - title: 10
+        output: "Extras/Love or Money?.mkv"
+      - title: 11
+        output: "Extras/The Music of Pride and Prejudice.mkv"
+      - title: 12
+        output: "Extras/Lifestyles of the Wealthy in Early 19th Century England.mkv"
+      # title 13: austinland trailer
+      # title 14: dirty dancing trailer
+      # title 15: shakespeare in love trailer
+      # title 16: the english patient trailer
+      # title 17: lionsgate logo
+      # title 18: all trailers combined
+      # title 19: ring of fire trailer
