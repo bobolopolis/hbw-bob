@@ -1,0 +1,33 @@
+#YAML 1.2
+---
+version: 0
+preset: "AV1 MKV 2160p60 4K"
+audio: "2"
+aname: "English"
+subtitle: "1"
+subname: "English"
+workdir: "/mnt/raid/media/tv/Farscape"
+
+inputs:
+  - input: "rip/FARSCAPE_S1D1.iso"
+    titles:
+      - title: 1
+        output: "Season 1/s01e01 - Premiere.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 2
+        output: "Season 1/s01e02 - I, E.T..mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 3
+        output: "Season 1/s01e03 - Exodus from Genesis.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 4
+        output: "Season 1/s01e04 - Throne for a Loss.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 5
+        output: "Season 1/s01e05 - Back and Back and Back to the Future.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
