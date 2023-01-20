@@ -31,3 +31,19 @@ inputs:
         output: "Season 1/s01e05 - Back and Back and Back to the Future.mkv"
         audio: "2,3"
         aname: "English,Commentary"
+  - input: "rip/FARSCAPE_S1D2.iso"
+    titles:
+      - title: 1
+        output: "Season 1/s01e06 - Thank God It's Friday... Again.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 2
+        output: "Season 1/s01e07 - PK Tech Girl.mkv"
+      - title: 3
+        output: "Season 1/s01e08 - That Old Black Magic.mkv"
+      - title: 4
+        output: "Season 1/s01e09 - DNA Mad Scientist.mkv"
+        audio: "2,3,4"
+        aname: "English,Commentary 1,Commentary 2"
+      - title: 5
+        output: "Season 1/s01e10 - They've Got a Secret.mkv"
