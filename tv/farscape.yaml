@@ -47,3 +47,61 @@ inputs:
         aname: "English,Commentary 1,Commentary 2"
       - title: 5
         output: "Season 1/s01e10 - They've Got a Secret.mkv"
+  - input: "rip/FARSCAPE_S1D3.iso"
+    titles:
+      - title: 1
+        output: "Season 1/s01e11 - Till the Blood Runs Clear.mkv"
+      - title: 2
+        output: "Season 1/s01e12 - Rhapsody in Blue.mkv"
+      - title: 3
+        output: "Season 1/s01e13 - The Flax.mkv"
+      - title: 4
+        output: "Season 1/s01e14 - Jeremiah Crichton.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 5
+        output: "Season 1/s01e15 - Durka Returns.mkv"
+  - input: "rip/FARSCAPE_S1D4.iso"
+    titles:
+      - title: 1
+        output: "Season 1/s01e16 - A Human Reaction.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 2
+        output: "Season 1/s01e17 - Through the Looking Glass.mkv"
+      - title: 3
+        output: "Season 1/s01e18 - A Bug's Life.mkv"
+      - title: 4
+        output: "Season 1/s01e19 - Nerve.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 5
+        output: "Season 1/s01e20 - The Hidden Memory.mkv"
+  - input: "rip/FARSCAPE_S1D5.iso"
+    titles:
+      - title: 1
+        output: "Season 1/s01e21 - Bone to be Wild.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 2
+        output: "Season 1/s01e22 - Family Ties.mkv"
+        audio: "2,3,4"
+        aname: "English,Commentary 1, Commentary 2"
+      - title: 5
+        output: "Extras/The Farscape Effect - Behind the Scenes of a Cutting Edge Sci-Fi Show.mkv"
+        audio: "1"
+      - title: 6
+        output: "Extras/In the Beginning - A Look Back with Brian Henson.mkv"
+        audio: "1"
+      - title: 7
+        output: "Extras/Director's Cut and Broadcast Comparison.mkv"
+        audio: "1"
+      - title: 8
+        output: "Extras/Behind the Scenes with Anthony Simcoe (D' Argo).mkv"
+        audio: "1"
+      - title: 9
+        output: "Extras/Behind the Scenes with Jonathan Hardy (Voice of Rygel).mkv"
+        audio: "1"
+      - title: 10
+        output: "Extras/Behind the Scenes with Lany John Tupu (Crais and Voice of Pilot).mkv"
+        audio: "1"
