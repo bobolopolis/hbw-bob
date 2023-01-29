@@ -1,0 +1,59 @@
+#YAML 1.2
+---
+version: 0
+preset: "AV1 MKV 2160p60 4K"
+audio: "1"
+aname: "English"
+subtitle: "1"
+subname: "English"
+
+workdir: "/mnt/raid/media/tv/Poirot"
+
+# Some disks have multiple titles that appear to have the same content. In
+# these cases, the titles used by the DVD menu are used.
+
+inputs:
+  - input: "rip/poirot-s01d1"
+    titles:
+      - title: 1
+        output: "Season 01/s01e01 - The Adventure of the Clapham Cook.mkv"
+      - title: 2
+        output: "Season 01/s01e02 - Murder in the Mews.mkv"
+      - title: 3
+        output: "Season 01/s01e03 - The Adventure of Johnnie Waverly.mkv"
+      - title: 4
+        output: "Season 01/s01e04 - Four and Twenty Blackbirds.mkv"
+  - input: "rip/poirot-s01d2"
+    titles:
+      - title: 1
+        output: "Season 01/s01e05 - The Third Floor Flat.mkv"
+      - title: 2
+        output: "Season 01/s01e06 - Triangle at Rhodes.mkv"
+      - title: 3
+        output: "Season 01/s01e07 - Problem at Sea.mkv"
+  - input: "rip/poirot-s01d3"
+    titles:
+      - title: 1
+        output: "Season 01/s01e08 - The Incredible Theft.mkv"
+      - title: 2
+        output: "Season 01/s01e09 - The King of Clubs.mkv"
+      - title: 3
+        output: "Season 01/s01e10 - The Dream.mkv"
+  - input: "rip/poirot-s02d1"
+    titles:
+      - title: 1
+        output: "Season 02/s02e01-1 - Peril at End House Part 1.mkv"
+      - title: 2
+        output: "Season 02/s02e01-2 - Peril at End House Part 2.mkv"
+      - title: 3
+        output: "Season 02/s02e02 - The Veiled Lady.mkv"
+      - title: 4
+        output: "Season 02/s02e03 - The Lost Mine.mkv"
+  - input: "rip/poirot-s02d2"
+    titles:
+      - title: 1
+        output: "Season 02/s02e04 - The Cornish Mystery.mkv"
+      - title: 2
+        output: "Season 02/s02e05 - The Disappearance of Mr. Davenheim.mkv"
+      - title: 3
+        output: "Season 02/s02e06 - Double Sin.mkv"
