@@ -57,3 +57,55 @@ inputs:
         output: "Season 02/s02e05 - The Disappearance of Mr. Davenheim.mkv"
       - title: 3
         output: "Season 02/s02e06 - Double Sin.mkv"
+  - input: "rip/poirot-s02d3"
+    titles:
+      - title: 2
+        output: "Season 02/s02e08 - The Kidnapped Prime Minister.mkv"
+      - title: 3
+        output: "Season 02/s02e09 - The Adventure of the Western Star.mkv"
+  - input: "rip/poirot-s03d1"
+    titles:
+      - title: 1
+        output: "Season 03/s03e01 - The Mysterious Affair at Styles.mkv"
+      - title: 2
+        output: "Season 03/s03e02 - How Does Your Garden Grow?.mkv"
+      - title: 3
+        output: "Season 03/s03e03 - The Million Dollar Bond Robbery.mkv"
+      # title 5: Going Postal ad
+      # title 6: Murdoch Mysteries ad
+      # title 7: Acorn ad
+  - input: "rip/poirot-s03d2"
+    titles:
+      - title: 1
+        output: "Season 03/s03e04 - The Plymouth Express.mkv"
+      - title: 2
+        output: "Season 03/s03e05 - Wasps Nest.mkv"
+      - title: 3
+        output: "Season 03/s03e06 - The Tragedy at Marsdon Manor.mkv"
+      - title: 4
+        output: "Season 03/s03e07 - The Double Clue.mkv"
+  - input: "rip/poirot-s03d3"
+    titles:
+      - title: 1
+        output: "Season 03/s03e08 - The Mystery of the Spanish Chest.mkv"
+      - title: 2
+        output: "Season 03/s03e09 - The Theft of the Royal Ruby.mkv"
+      - title: 3
+        output: "Season 03/s03e10 - The Affair at the Victory Ball.mkv"
+      - title: 4
+        output: "Season 03/s03e11 - The Mystery of Hunter's Lodge.mkv"
+  - input: "rip/poirot-s04d1"
+    titles:
+      - title: 1
+        output: "Season 04/s04e01 - The ABC Murders.mkv"
+      # 2: Single Handed ad
+      # 3: Vera ad
+      # 4: Acorn ad
+  - input: "rip/poirot-s04d2"
+    titles:
+      - title: 1
+        output: "Season 04/s04e02 - Death in the Clouds.mkv"
+  - input: "rip/poirot-s04d3"
+    titles:
+      - title: 1
+        output: "Season 04/s04e03 - One, Two, Buckle My Shoe.mkv"
