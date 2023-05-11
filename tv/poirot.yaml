@@ -59,6 +59,8 @@ inputs:
         output: "Season 02/s02e06 - Double Sin.mkv"
   - input: "rip/poirot-s02d3"
     titles:
+      - title: 1
+        output: "Season 02/s02e07 - The Adventure of the Cheap Flat.mkv"
       - title: 2
         output: "Season 02/s02e08 - The Kidnapped Prime Minister.mkv"
       - title: 3
@@ -109,3 +111,234 @@ inputs:
     titles:
       - title: 1
         output: "Season 04/s04e03 - One, Two, Buckle My Shoe.mkv"
+  - input: "rip/poirot-s05d1"
+    titles:
+      - title: 1
+        output: "Season 05/s05e01 - The Adventure of the Egyptian Tomb.mkv"
+      - title: 2
+        output: "Season 05/s05e02 - The Underdog.mkv"
+      - title: 3
+        output: "Season 05/s05e03 - The Yellow Iris.mkv"
+      - title: 4
+        output: "Season 05/s05e04 - The Case of the Missing Will.mkv"
+      # 5: all episodes
+      # 6: Marple ad
+      # 7: Midsomer Murders ad
+      # 8: Acorn ad
+  - input: "rip/poirot-s05d2"
+    titles:
+      - title: 1
+        output: "Season 05/s05e05 - The Adventure of the Italian Nobleman.mkv"
+      - title: 2
+        output: "Season 05/s05e06 - The Chocolate Box.mkv"
+      - title: 3
+        output: "Season 05/s05e07 - Dead Man's Mirror.mkv"
+      - title: 4
+        output: "Season 05/s05e08 - Jewel Robbery at the Grand Metropolitan.mkv"
+      # 5: all episodes
+  - input: "rip/poirot-s06d1"
+    titles:
+      - title: 1
+        output: "Season 06/s06e01 - Hercule Poirot's Christmas.mkv"
+      # 2: Marple ad
+      # 3: Case Histories ad
+      # 4: Acorn ad
+  - input: "rip/poirot-s06d2"
+    titles:
+      - title: 1
+        output: "Season 06/s06e02 - Hickory Dickory Dock.mkv"
+  - input: "rip/poirot-s06d3"
+    titles:
+      - title: 1
+        output: "Season 06/s06e03 - Murder on the Links.mkv"
+  - input: "rip/poirot-s06d4"
+    titles:
+      - title: 1
+        output: "Season 06/s06e04 - Dumb Witness.mkv"
+  - input: "rip/poirot-s07d1"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Acorn ad
+      # 3: Same as 4
+      - title: 4
+        output: "Season 07/s07e01 - The Murder of Roger Ackroyd.mkv"
+      # 5: Same as 4
+      # 6: Same as 7
+      - title: 7
+        output: "Season 07/s07e02 - Lord Edgware Dies.mkv"
+      # 8: Same as 7
+  - input: "rip/poirot-s08d1"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Same as 3
+      - title: 3
+        output: "Season 08/s08e02 - Murder in Mesopotamia.mkv"
+      # 4: Same as 3
+      # 5: Same as 6
+      - title: 6
+        output: "Season 08/s08e01 - Evil Under the Sun.mkv"
+      # 7: Same as 6
+  - input: "rip/poirot-s09d1"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Acorn ad
+      # 3: Jack Taylor ad
+      # 4: Same as 5
+      - title: 5
+        output: "Season 09/s09e01 - Five Little Pigs.mkv"
+      # 6: Same as 5
+      # 7: Same as 8
+      - title: 8
+        output: "Season 09/s09e02 - Sad Cypress.mkv"
+      # 9: Same as 8
+  - input: "rip/poirot-s09d2"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Same as 3
+      - title: 3
+        output: "Season 09/s09e03 - Death on the Nile.mkv"
+      # 4: Same as 3
+      # 5: Same as 6
+      - title: 6
+        output: "Season 09/s09e04 - The Hollow.mkv"
+      # 7: Same as 6
+  - input: "rip/poirot-s10d1"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Acorn ad
+      # 3: Dirk Gently ad
+      # 4: Maigret ad
+      # 5: Same as 6
+      - title: 6
+        output: "Season 10/s10e01 - The Mystery of the Blue Train.mkv"
+      # 7: Same as 6
+      # 8: Same as 9
+      - title: 9
+        output: "Season 10/s10e02 - Cards on the Table.mkv"
+      # 10: Same as 9
+  - input: "rip/poirot-s10d2"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Same as 3
+      - title: 3
+        output: "Season 10/s10e03 - After the Funeral.mkv"
+      # 4: Same as 3
+      # 5: Same as 6
+      - title: 6
+        output: "Season 10/s10e04 - Taken at the Flood.mkv"
+      # 7: Same as 6
+      - title: 8
+        output: "Extras/Photo Gallery (Series 10).mkv"
+      - title: 9
+        output: "Extras/Poirot Behind the Scenes.mkv"
+  - input: "rip/poirot-s11d1"
+    titles:
+      # 1: FBI warning and logos
+      # 2: Acorn ad
+      # 3: Jack Irish ad
+      # 4: The Fall ad
+      # 5: Same as 6
+      - title: 6
+        # throws error when using dvdnav
+        no-dvdnav: true
+        output: "Season 11/s11e01 - Mrs McGinty's Dead.mkv"
+      # 7: Same as 6
+      # 8: Same as 9
+      - title: 9
+        # throws error when using dvdnav
+        no-dvdnav: true
+        output: "Season 11/s11e02 - Cat Among the Pigeons.mkv"
+      # 10: Same as 9
+  - input: "rip/poirot-s11d2"
+    titles:
+      # 1: FBI warning
+      - title: 2
+        output: "Season 11/s11e03 - Third Girl.mkv"
+      # 3: Same as 2
+      # 4: Same as 2
+      - title: 5
+        output: "Season 11/s11e04 - Appointment with Death.mkv"
+      # 6: Same as 5
+      # 7: Same as 5
+  - input: "rip/poirot-s12d1"
+    titles:
+      # 1: FBI warning
+      # 2: Acorn ad
+      # 3: Doc Martin ad
+      # 4: Foyle's War ad
+      - title: 5
+        output: "Season 12/s12e01 - Three Act Tragedy.mkv"
+      # 6: Same as 5
+      # 7: Same as 5
+      - title: 8
+        output: "Season 12/s12e02 - Hallowe'en Party.mkv"
+      # 9: Same as 8
+      # 10: Same as 8
+  - input: "rip/poirot-s12d2"
+    titles:
+      # 1: FBI warning
+      - title: 2
+        output: "Season 12/s12e03 - Murder on the Orient Express.mkv"
+      # 3: Same as 2
+      # 4: Same as 2
+      - title: 5
+        output: "Extras/David Suchet on the Orient Express.mkv"
+      - title: 6
+        output: "Extras/Photo Gallery (Series 12).mkv"
+      - title: 7
+        output: "Season 12/s12e04 - The Clocks.mkv"
+      # 8: Same as 7
+      # 9: Same as 7
+  - input: "rip/poirot-s13d1"
+    titles:
+      # 1: FBI warning
+      # 2: Acorn ad
+      # 3: Les Petits Meurtres d'Agatha Christie ad
+      # 4: David Suchet In the Footsteps of St. Paul ad
+      - title: 5
+        output: "Season 13/s13e01 - Elephants Can Remember.mkv"
+      # 6: Same as 5
+      # 7: Same as 5
+      - title: 8
+        output: "Season 13/s13e02 - The Big Four.mkv"
+      # 9: Same as 8
+      # 10: Same as 8
+  - input: "rip/poirot-s13d2"
+    titles:
+      # 1: FBI warning
+      - title: 2
+        output: "Season 13/s13e03 - Dead Man's Folly.mkv"
+      # 3: Same as 2
+      # 4: Same as 2
+      - title: 5
+        output: "Season 13/s13e04 - The Labours of Hercules.mkv"
+      # 6: Same as 5
+      # 7: Same as 5
+  - input: "rip/poirot-s13d3"
+    titles:
+      # 1: FBI warning
+      - title: 2
+        output: "Season 13/s13e05 - Curtain: Poirot's Last Case.mkv"
+      # 3: Same as 2
+      - title: 4
+        output: "Extras/Interview with David Suchet.mkv"
+      - title: 5
+        output: "Extras/Photo Gallery (Series 13).mkv"
+  - input: "rip/being-poirot"
+    titles:
+      # 1: empty? Too short to see anything
+      - title: 2
+        output: "Extras/David Suchet - Being Poirot.mkv"
+      # 3: empty? Too short to see anything
+      - title: 4
+        output: "Extras/Mathew Prichard on Poirot.mkv"
+      - title: 5
+        output: "Extras/David Suchet on Poirot.mkv"
+      # 6: RLJ Entertainment logo
+      # 7: FBI warning
+  - input: "rip/acorn-poirot-super-sleuths"
+    titles:
+      # 1: FBI warning
+      - title: 2
+        output: "Extras/Super Sleuths - Agatha Christie's Poirot.mkv"
+      # 3: Same as 2
