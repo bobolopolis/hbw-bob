@@ -105,3 +105,71 @@ inputs:
       - title: 10
         output: "Extras/Behind the Scenes with Lany John Tupu (Crais and Voice of Pilot).mkv"
         audio: "1"
+  - input: "rip/FARSCAPE_S2D1.iso"
+    titles:
+      - title: 1
+        output: "Season 2/s02e01 - Mind the Baby.mkv"
+      - title: 2
+        output: "Season 2/s02e02 - Vitas Mortis.mkv"
+      - title: 3
+        output: "Season 2/s02e03 - Taking the Stone.mkv"
+      - title: 4
+        output: "Season 2/s02e04 - Crackers Don't Matter.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 5
+        output: "Season 2/s02e05 - The Way We Weren't.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      - title: 8
+        output: "Season 2/Extras/Deleted Scenes for Mind the Baby.mkv"
+        audio: "1"
+      - title: 9
+        output: "Season 2/Extras/Deleted Scenes for Taking the Stone.mkv"
+        audio: "1"
+      - title: 10
+        output: "Season 2/Extras/Deleted Scenes for Crackers Don't Matter.mkv"
+        audio: "1"
+      - title: 11
+        output: "Season 2/Extras/Listening In with Composer Guy Gross - The Way We Weren't.mkv"
+        audio: "1"
+  - input: "rip/FARSCAPE_S2D2.iso"
+    titles:
+      - title: 1
+        output: "Season 2/s02e06 - Picture If You Will.mkv"
+      - title: 2
+        output: "Season 2/s02e07 - Home on the Remains.mkv"
+      - title: 3
+        output: "Season 2/s02e08 - Dream a Little Dream.mkv"
+      - title: 4
+        output: "Season 2/s02e09 - Out of Their Minds.mkv"
+      - title: 5
+        output: "Season 2/s02e10 - My Three Crichtons.mkv"
+      - title: 8
+        output: "Season 2/Extras/Deleted Scenes for Dream a Little Dream.mkv"
+        audio: "1"
+      - title: 9
+        output: "Season 2/Extras/Listening In with Composer Guy Gross - My Three Crichtons.mkv"
+        audio: "1"
+  - input: "rip/FARSCAPE_S2D3.iso"
+    titles:
+      - title: 1
+        output: "Season 2/s02e11 - Look at the Princess Part 1 - A Kiss Is But A Kiss.mkv"
+      - title: 2
+        output: "Season 2/s02e12 - Look at the Princess Part 2 - I Do, I Think.mkv"
+      - title: 3
+        output: "Season 2/s02e13 - Look at the Princess Part 3 - The Maltese Crichton.mkv"
+      - title: 4
+        output: "Season 2/s02e14 - Beware of Dog.mkv"
+      - title: 5
+        output: "Season 2/s02e15 - Won't Get Fooled Again.mkv"
+        audio: "2,3"
+        aname: "English,Commentary"
+      # 6: all episodes
+      # 7: logos
+      - title: 8
+        output: "Season 2/Extras/Deleted Scenes for Look at the Princess Part I.mkv"
+        audio: "1"
+      - title: 9
+        output: "Season 2/Extras/Deleted Scenes for Look at the Princess Part III.mkv"
+        audio: "1"
