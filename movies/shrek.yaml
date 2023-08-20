@@ -1,0 +1,47 @@
+#YAML 1.2
+---
+version: 0
+preset: "AV1 MKV 2160p60 4K"
+audio: "1"
+aname: "English"
+subtitle: "1,2,3,4,5,6"
+subname: "English,Spanish,French,English Commentary,Spanish Commentary,French Commentary,English Closed Caption"
+
+workdir: "/mnt/raid/media/movies/Shrek (2001)"
+inputs:
+  - input: "rip/Shrek"
+    titles:
+      - title: 1
+        output: "Shrek (2001).mkv"
+        audio: "2,4,5,6"
+        aname: "English,French,Spanish,Commentary"
+        subtitle: "1,2,3,4,5,6"
+        subname: "English,Spanish,French,English Commentary,Spanish Commentary,French Commentary,English Closed Caption"
+      - title: 2
+        output: "extras/The Tech of Shrek.mkv"
+        subtitle: "1,2,3,4"
+        subname: "English,Spanish,French,English Closed Caption"
+      - title: 3
+        output: "extras/Dubbing Featurette.mkv"
+        subtitle: "1,2,3,4"
+        subname: "English,Spanish,French,English Closed Caption"
+      - title: 4
+        output: "extras/Technical Goofs.mkv"
+      - title: 5
+        output: "extras/Karaoke.mkv"
+        subtitle: "1,2,3"
+        subname: "Spanish,French,English Closed Caption"
+      # 6: Same as 5
+      - title: 7
+        output: "extras/Storyboard Pitch of Deleted Scenes - Fiona's Prologue.mkv"
+      - title: 8
+        output: "extras/Storyboard Pitch of Deleted Scenes - The Deal.mkv"
+      - title: 9
+        output: "extras/Storyboard Pitch of Deleted Scenes - Fiona Gets them Lost.mkv"
+      - title: 10
+        output: "extras/Theatrical Trailer.mkv"
+        subtitle: "1,2,3"
+        subname: "Spanish,French,English Closed Caption"
+      # 11: DTS logo
+      # 12: Dreamworks logo
+      # 13: pirate warning
