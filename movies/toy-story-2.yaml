@@ -1,0 +1,28 @@
+#YAML 1.2
+---
+version: 0
+preset: "AV1 MKV 2160p60 4K"
+audio: "1"
+aname: "English"
+
+workdir: "/mnt/raid/media/movies/Toy Story 2 (1999)"
+inputs:
+  - input: "rip/T2e0nnm1"
+    titles:
+      - title: 1
+        output: "Toy Story 2 (1999).mkv"
+        audio: "3,5,6,7"
+        aname: "English,French,Spanish,Commentary"
+        subtitle: "1,2,3,4,5,6"
+        subname: "English,French,Spanish,English Commentary,French Commentary,Spanish Commentary"
+      # 6: THX logo
+      # 10: Spanish credits?
+      # 12-17: Previews
+      # 18: The Incredibles game ad
+      - title: 19
+        output: "extras/Intro.mkv"
+        subtitle: "1,2,3"
+        subname: "English,French,Spanish"
+      # 20-24: Previews
+      # 26: Speaker test
+      # 31: Short clip from the movie?
