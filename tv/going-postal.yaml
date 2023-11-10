@@ -1,0 +1,95 @@
+#YAML 1.2
+---
+version: 0
+preset: "AV1 MKV 2160p60 4K"
+audio: "1"
+aname: "English"
+all-subtitles: true
+
+workdir: "/mnt/raid/media/tv/Going Postal"
+
+inputs:
+  - input: "rip"
+    titles:
+      - title: 1
+        output: "Season 1/s01e01 - Going Postal.mkv"
+        audio: "1,2"
+        aname: "English,Commentary"
+      #- title: 4 # broken? handbrake errors
+      #  output: "raw/t4.mkv"
+      #- title: 9 # Parts 1 and 2 comba
+      #  output: "Season 1/Going Postal.mkv"
+      - title: 10
+        output: "Season 1/s01e02 - Going Postal.mkv"
+        audio: "1,2"
+        aname: "English,Commentary"
+      - title: 11
+        output: "Season 0/Terry Pratchett Introduction.mkv"
+      - title: 12
+        output: "Season 0/Terry Pratchett Interview.mkv"
+      - title: 13
+        output: "Season 0/Director and Producer Interview.mkv"
+      - title: 14
+        output: "Season 0/Costumes.mkv"
+      - title: 15
+        output: "Season 0/Make-Up.mkv"
+      - title: 16
+        output: "Season 0/The Fans.mkv"
+      #- title: 17 # all extras
+      #  output: "raw/t17.mkv"
+      - title: 18
+        output: "Season 0/Bloopers.mkv"
+      - title: 19
+        output: "Season 0/Steve Pemberton Interview.mkv"
+      - title: 20
+        output: "Season 0/Richard Coyle Interview.mkv"
+      - title: 21
+        output: "Season 0/David Suchet Interview.mkv"
+      - title: 22
+        output: "Season 0/Clair Foy Interview.mkv"
+      - title: 23
+        output: "Season 0/Charles Dance Interview.mkv"
+      - title: 24
+        output: "Season 0/Ian Bonar Interview.mkv"
+      - title: 25
+        output: "Season 0/Andrew Sachs Interview.mkv"
+      - title: 26
+        output: "Season 0/Madhav Sharma Interview.mkv"
+      - title: 27
+        output: "Season 0/Timothy West Interview.mkv"
+      #- title: 28 # Interviews combined
+      #  output: "raw/t28.mkv"
+      - title: 29 # pins scene
+        output: "Season 0/Extended Scene - Pins.mkv"
+      - title: 30
+        output: "Season 0/Deleted Scene - Clacks.mkv"
+      - title: 31
+        output: "Season 0/Deleted Scene - Stamp Order.mkv"
+      - title: 32
+        output: "Season 0/Deleted Scene - Shed Skin.mkv"
+      - title: 33
+        output: "Season 0/Deleted Scene - Bell Ring.mkv"
+      - title: 34
+        output: "Season 0/Deleted Scene - Rent the Roof.mkv"
+      #- title: 35 # Deleted scenes combo
+      #  output: "raw/t35.mkv"
+      #- title: 36 # Artwork slideshow
+      #  output: "raw/t36.mkv"
+      #- title: 37 # Concept art slideshow
+      #  output: "raw/t37.mkv"
+      #- title: 38 # Storyboard slideshow
+      #  output: "raw/t38.mkv"
+      #- title: 39 # interviews are for entertainment only
+      #  output: "raw/t39.mkv"
+      #- title: 40 # part 1 again
+      #  output: "raw/t40.mkv"
+      #  audio: "1,2"
+      #- title: 41 # part 2 again
+      #  output: "raw/t41.mkv"
+      #  audio: "1,2"
+      #- title: 42 # artwork sladeshow again
+      #  output: "raw/t42.mkv"
+      #- title: 43 # concept art again
+      #  output: "raw/t43.mkv"
+      #- title: 44 # storyboards again
+      #  output: "raw/t44.mkv"
